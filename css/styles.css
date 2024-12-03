@@ -113,6 +113,10 @@ section {
   color: white !important;
 }
 
+.active div h2 {
+  color: rgb(255, 207, 73);
+}
+
 @media only screen and (min-width: 35em) {
   .landing__container {
     max-width: 50em;

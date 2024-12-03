@@ -86,8 +86,10 @@ function attatchScrollListener() {
       document.querySelectorAll(".menu__link").forEach((navItem, index) => {
         if (index === activeSectionIndex) {
           navItem.classList.add("active__section");
+          sections[index].classList.add("active");
         } else {
           navItem.classList.remove("active__section");
+          sections[index].classList.remove("active");
         }
       });
     }
